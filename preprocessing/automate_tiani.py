@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 import os
 
 # 1. LOAD DATASET
-DATA_PATH = 'D:\Bootcamp\Laskar AI\Submission\Eksperimen_SML_Tiani\housing.csv'
+DATA_PATH = 'housing.csv'
 df = pd.read_csv(DATA_PATH)
 
 # 2. FEATURE SETUP
