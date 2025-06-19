@@ -20,7 +20,8 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install pandas scikit-learn
+          pip install Pandas Scikit-learn Os Pipeline OneHotEncoder StandardScaler ColumnTransformer
+
 
       - name: Run automate_tiani.py
         run: |
