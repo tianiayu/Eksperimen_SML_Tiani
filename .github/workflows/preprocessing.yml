@@ -3,7 +3,7 @@ name: Run Preprocessing Automation
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:  # Menjalankan manual dari GitHub UI
+  workflow_dispatch:
 
 jobs:
   preprocessing:
